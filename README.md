@@ -1,6 +1,8 @@
 # ZeroMQdocker
 With this repository you can create a docker image for a ELF32 ARM based Hard Float machine such as the PLCnext controller.
 
+To navagite to the repository to make the image for a ARM based ELF64 system use this repository: [zeromqdocker](https://github.com/tjoostrik/zeromqdocker)
+
 # Requirements
 cmake version 2.6 minimum
 
