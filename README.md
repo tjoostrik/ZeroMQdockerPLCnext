@@ -2,10 +2,9 @@
 With this repository you can create a docker image for a ELF32 ARM based Hard Float machine such as the PLCnext.
 
 # Requirements
-```
 cmake version 2.6 minimum
+
 PLCnext SDK installed
-```
 
 # Installation of docker
 ## Linux
