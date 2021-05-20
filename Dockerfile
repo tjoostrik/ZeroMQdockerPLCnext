@@ -1,5 +1,5 @@
-FROM ubuntu:20.10
+FROM ubuntu
 COPY srcLib/* /lib/
-COPY build/zeroMQ /
+COPY zeroMQ /
 COPY Configfile/zeroMQ.conf /Configfile/
 CMD ["./zeroMQ", "/Configfile/zeroMQ.conf"]
