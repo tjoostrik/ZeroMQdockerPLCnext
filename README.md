@@ -8,10 +8,10 @@ PLCnext SDK installed
 
 # Installation of docker
 ### Linux
-source /directory to sdk
-
+```
+source /directory/to/sdk
+```
 example: source /opt/pxc/sdk/AXCF2152/2021.0.1/environment-setup-cortexa9t2hf-neon-pxc-linux-gnueabi
-
 ```
 git clone https://github.com/tjoostrik/zeromqdockerplcnext
 cd zeromqdockerplcnext
