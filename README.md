@@ -31,3 +31,5 @@ You can edit the conf file and add it to the docker using -v path/to/conf/file:/
 example for subsciber: docker run f9afefa6acca -v /home/user/Download/zeromqdockerplcnext/Configfile/:/Configfile/
 
 example for publisher: docker run -it f9afefa6acca -v /home/user/Download/zeromqdockerplcnext/Configfile/:/Configfile/
+
+You put -it in the command so you can type the messages that you want to send otherwise it is sending nothing the whole time.
